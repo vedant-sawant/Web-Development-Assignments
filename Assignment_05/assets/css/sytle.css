@@ -1,0 +1,23 @@
+.button
+{
+    color:black;
+    margin: 15px;
+    border-radius: 15px;
+    /* transition: 0.5s; */
+    padding:20px;
+    background-color:slategrey;
+}
+
+.button:hover{
+    background:coral;
+}
+
+.name
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    size: 100%;
+    transform: translate(-50%, -50%);
+}
+

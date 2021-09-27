@@ -1,0 +1,40 @@
+<!-- Assignment 03: Use Assignment 02 and add internal and inline CSS  -->
+
+<html>
+<head>
+    <title>
+        Assignment 03
+    </title>
+    <style>
+        /* CSS Applied to Video */
+        video {
+            width: 100%;
+            height: auto;
+            filter: opacity(90%);
+            transition: all 1s;
+        }
+
+        /* CSS Applied for All Buttons */
+        #button {
+            left: 490px;
+            top: 450px;
+            position: fixed;
+            z-index: 1
+        }
+    </style>
+</head>
+<body>
+    <!-- Video Goes Here -->
+    <video width="400" height="400" controls loop autoplay muted>
+        <source src="./assets/mp4/maharashtra.mp4" type="video/mp4">
+
+        Your browser does not support the video tag.
+    </video>
+    <!-- Button Over Video Goes Here -->
+    <div>
+        <div id="button">
+            <a href="./assets/homepage.html"> <img src="./assets/img/explore.jpg" /> </a>
+        </div>
+        <!-- End of all Sections -->
+</body>
+</html>
